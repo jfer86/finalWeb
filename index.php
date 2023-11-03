@@ -239,7 +239,7 @@ $listaConfiguraciones = $sentencia->fetchAll(PDO::FETCH_ASSOC);
     <!-- Clients-->
     <div class="py-5">
         <div class="container">
-            <div class="row align-items-center">
+            <!-- <div class="row align-items-center">
                 <div class="col-md-3 col-sm-6 my-3">
                     <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
                 </div>
@@ -252,7 +252,7 @@ $listaConfiguraciones = $sentencia->fetchAll(PDO::FETCH_ASSOC);
                 <div class="col-md-3 col-sm-6 my-3">
                     <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- Contact-->
@@ -262,13 +262,6 @@ $listaConfiguraciones = $sentencia->fetchAll(PDO::FETCH_ASSOC);
                 <h2 class="section-heading text-uppercase"><?php echo $listaConfiguraciones[14]['valor'];?></h2>
                 <h3 class="section-subheading text-muted"><?php echo $listaConfiguraciones[15]['valor'];?></h3>
             </div>
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- * * SB Forms Contact Form * *-->
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- This form is pre-integrated with SB Forms.-->
-            <!-- To make this form functional, sign up at-->
-            <!-- https://startbootstrap.com/solution/contact-forms-->
-            <!-- to get an API token!-->
             <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-6">
@@ -297,10 +290,6 @@ $listaConfiguraciones = $sentencia->fetchAll(PDO::FETCH_ASSOC);
                         </div>
                     </div>
                 </div>
-                <!-- Submit success message-->
-                <!---->
-                <!-- This is what your users will see when the form-->
-                <!-- has successfully submitted-->
                 <div class="d-none" id="submitSuccessMessage">
                     <div class="text-center text-white mb-3">
                         <div class="fw-bolder">Form submission successful!</div>
@@ -309,10 +298,6 @@ $listaConfiguraciones = $sentencia->fetchAll(PDO::FETCH_ASSOC);
                         <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                     </div>
                 </div>
-                <!-- Submit error message-->
-                <!---->
-                <!-- This is what your users will see when there is-->
-                <!-- an error submitting the form-->
                 <div class="d-none" id="submitErrorMessage">
                     <div class="text-center text-danger mb-3">Error sending message!</div>
                 </div>
@@ -335,17 +320,8 @@ $listaConfiguraciones = $sentencia->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </div>
     </footer>
-    <!-- Portfolio Modals-->
-    <!-- Portfolio item 1 modal popup-->
-
-    <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 

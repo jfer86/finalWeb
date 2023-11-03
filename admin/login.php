@@ -42,26 +42,22 @@ if($_POST){
 
 </head>
 
-<body>
+<body style="background: linear-gradient(to right, #BDC3C7, #2C3E50);">
   <header>
     <!-- place navbar here -->
   </header>
   <main>
     <div class="container">
-      <div class="row">
-        <div class="col-4">
-
-        </div>
-        <div class="col-4">
-          <br/><br/>
+      <div class="row justify-content-center align-items-center min-vh-100">
+        <div class="col-md-4">
           <?php if(isset($mensaje)){ ?>
           <div class="alert alert-danger alert-dismissible fade show" role="alert">
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
               <strong><?php echo $mensaje;?></strong>
             </div>
           <?php } ?>
-          <div class="card">
-            <div class="card-header">
+          <div class="card shadow-lg">
+            <div class="card-header text-center" style="background-color: #D3D3D3;">
               Login
             </div>
             <div class="card-body">
@@ -89,7 +85,7 @@ if($_POST){
                   <input type="password" class="form-control" name="password" id="password" aria-describedby="helpId" placeholder="Contraseña">
                 </div>
 
-                <input name="" id="" class="btn btn-primary" type="submit" value="Entrar">
+                <input name="" id="" class="btn btn-primary btn-block" type="submit" value="Entrar">
               </form>
 
             </div>
@@ -106,10 +102,10 @@ if($_POST){
     <!-- place footer here -->
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  <script src="/https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="/sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="/anonymous">
   </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  <script src="/https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="/sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="/anonymous">
   </script>
 </body>
 
